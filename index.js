@@ -156,7 +156,7 @@ function addEngineer() {
 function htmlBuilder () {
     console.log("Team created!")
 
-    fs.writeFileSync(outputPath, generateTeam(teamArray), "UTF-8")
+    fs.writeFileSync(outputPath, createTeam(teamArray), "UTF-8")
 
 }
 
