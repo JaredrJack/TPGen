@@ -8,7 +8,7 @@ const OUTPUT_DIR = path.resolve(__dirname, "output");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 const generateTeam = require("./src/template.js")
 
-teamArray = [];
+const teamArray = [];
 
 
 
@@ -156,12 +156,12 @@ function addEngineer() {
 function htmlBuilder () {
     console.log("Team created!")
 
-    fs.writeFileSync(outputPath, createTeam(teamArray), "UTF-8")
+    fs.writeFileSync('./dist/profile.html', generateTeam(teamArray), "UTF-8")
 
-}
+};
 
 createTeam();
 
-}
+};
 
 runApp();

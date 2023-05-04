@@ -5,12 +5,11 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-   
   * [Tests](#tests)
   * [Questions](#questions)
   
   ## [Description](#table-of-contents)
-  The purpose of this application is to quickly generate README files ina Professional format. 
+  The purpose of this application is to generate a HTML file creating a Team Profile Generator. 
 
  - GIVEN a command-line application that accepts user input
 - WHEN I am prompted for my team members and their information
@@ -31,9 +30,16 @@
 - THEN I exit the application, and the HTML is generated
 
 ## [Installation](#table-of-contents)
- - Created respository. Cloned starter code from Github. Open VS code. Made root directory and used npm i in terminal to install.
+ - npm init
+ - node. js
+ - npm i inquirer@8.2.4
+ - npm i jest 
+
   ## [Usage](#table-of-contents)
-  - Open terminal. Type node index.js. Answer prompts. On success a HTML will be generated.
+  - Open terminal. 
+  - Type node index.js.
+  - Answer prompts. 
+  - On success a HTML will be generated.
   
    
   ## [Tests](#table-of-contents)
